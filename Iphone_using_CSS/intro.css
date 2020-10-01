@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.phone {
+    width: 300px;
+    height: 600px;
+    background: #fffdf8;
+    border-radius: 40px;
+    border: 4px solid #a6afaf;
+    box-shadow: inset 5px 5px 5px 0px #a6afaf, inset -5px -5px 7px 0px #a6afaf, 0px 1px 25px 10px #403f36;
+}
+
+.cam-box {
+    width: 100px;
+    height: 110px;
+    background: #fbf7f1;
+    margin: 15px;
+    border-radius: 32px;
+    border: 4px solid #efece7;
+    position: relative;
+}
+
+.c1 {
+    width: 38px;
+    height: 38px;
+    background-image: radial-gradient(circle, #0f3a7c, #1b2231 40%);
+    border-radius: 50%;
+    border: 3px solid #d8d6cf;
+    box-shadow: 0px 0.1px 3px 0px #403f36;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.c2 {
+    width: 38px;
+    height: 38px;
+    background-image: radial-gradient(circle, #0f3a7c, #1b2231 40%);
+    border-radius: 50%;
+    border: 3px solid #d8d6cf;
+    box-shadow: 0px 0.1px 3px 0px #403f36;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.fan1 {
+    width: 22px;
+    height: 22px;
+    background: red;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #f7e6da, #f1e1d7, #e4d6d0 70%, #ddd1cc);
+    border: 3px solid #f0ede6;
+    box-shadow: 0.5px 0px 2px 0px #ddd1cc;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.fan1 {
+    width: 22px;
+    height: 22px;
+    background: red;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #f7e6da, #f1e1d7, #e4d6d0 70%, #ddd1cc);
+    border: 3px solid #f0ede6;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.fan2 {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #a2a2a2 10%, #8e8e8e);
+    border: 2px solid #f0ede6;
+    box-shadow: 0.5px 0px 2px 0px #f0ede6;
+    position: absolute;
+    top: 15px;
+    right: 17px;
+}
+
+.apple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 85px;
+    animation: apple 4s linear infinite;
+}
+
+@keyframes apple {
+    0 {
+        color: #000;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: red;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: #000;
+    }
+}
